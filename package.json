@@ -1,0 +1,31 @@
+{
+  "name": "kafka-socketio",
+  "version": "1.0.0",
+  "description": "Produce and consume to/from Redpanda, integrated on a web frontend via Socket.io",
+  "main": "kafka-socketio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsenpanda/rp-socketio.git"
+  },
+  "keywords": [
+    "redpanda",
+    "kafka",
+    "socketio"
+  ],
+  "author": "Chris Larsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larsenpanda/rp-socketio/issues"
+  },
+  "homepage": "https://github.com/larsenpanda/rp-socketio#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http": "^0.0.1-security",
+    "kafkajs": "^1.16.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.1"
+  }
+}
